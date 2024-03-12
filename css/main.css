@@ -224,7 +224,7 @@ footer h3 {
     background-image: url(../images/BG-poatan.png);
     background-repeat: no-repeat;
     background-size: 73vh;
-    padding: 55px 0 0 0;
+    padding: 100px 0 0 0;
     background-position: 0px bottom;
     background-position-x: left 10%;
     display: none;
@@ -243,7 +243,7 @@ footer h3 {
     background-image: url(../images/BG-volka.png);
     background-repeat: no-repeat;
     background-size: 73vh;
-    padding: 55px 0 0 0;
+    padding: 75px 0 0 0;
     background-position: 0px bottom;
     background-position-x: left 10%;
 }
@@ -261,7 +261,7 @@ footer h3 {
     background-image: url(../images/BG-silva.png);
     background-repeat: no-repeat;
     background-size: 73vh;
-    padding: 55px 0 0 0;
+    padding: 100px 0 0 0;
     background-position: 0px bottom;
     background-position-x: left 10%;
 }
@@ -279,7 +279,7 @@ footer h3 {
     background-image: url(../images/BG-mcgregor.png);
     background-repeat: no-repeat;
     background-size: 73vh;
-    padding: 55px 0 0 0;
+    padding: 100px 0 0 0;
     background-position: 0px bottom;
     background-position-x: left 10%;
 }
@@ -297,7 +297,7 @@ footer h3 {
     background-image: url(../images/BG-stpierre.png);
     background-repeat: no-repeat;
     background-size: 73vh;
-    padding: 55px 0 0 0;
+    padding: 100px 0 0 0;
     background-position: 0px bottom;
     background-position-x: left 10%;
 }
@@ -315,7 +315,7 @@ footer h3 {
     background-image: url(../images/BG-charles.png);
     background-repeat: no-repeat;
     background-size: 73vh;
-    padding: 55px 0 0 0;
+    padding: 100px 0 0 0;
     background-position: 0px bottom;
     background-position-x: left 10%;
 }
@@ -333,7 +333,7 @@ footer h3 {
     background-image: url(../images/BG-khabib.png);
     background-repeat: no-repeat;
     background-size: 73vh;
-    padding: 55px 0 0 0;
+    padding: 75px 0 0 0;
     background-position: 0px bottom;
     background-position-x: left 10%;
 }
@@ -351,7 +351,7 @@ footer h3 {
     background-image: url(../images/BG-aldo.png);
     background-repeat: no-repeat;
     background-size: 73vh;
-    padding: 55px 0 0 0;
+    padding: 100px 0 0 0;
     background-position: 0px bottom;
     background-position-x: left 10%;
 }
@@ -369,7 +369,7 @@ footer h3 {
     background-image: url(../images/BG-jones.png);
     background-repeat: no-repeat;
     background-size: 73vh;
-    padding: 55px 0 0 0;
+    padding: 100px 0 0 0;
     background-position: 0px bottom;
     background-position-x: left 10%;
 }
@@ -387,7 +387,7 @@ footer h3 {
     background-image: url(../images/BG-amanda.png);
     background-repeat: no-repeat;
     background-size: 73vh;
-    padding: 55px 0 0 0;
+    padding: 100px 0 0 0;
     background-position: 0px bottom;
     background-position-x: left 10%;
 }
@@ -405,7 +405,7 @@ footer h3 {
     background-image: url(../images/BG-max.png);
     background-repeat: no-repeat;
     background-size: 73vh;
-    padding: 55px 0 0 0;
+    padding: 100px 0 0 0;
     background-position: 0px bottom;
     background-position-x: left 10%;
 }
@@ -423,7 +423,7 @@ footer h3 {
     background-image: url(../images/BG-justin.png);
     background-repeat: no-repeat;
     background-size: 73vh;
-    padding: 55px 0 0 0;
+    padding: 100px 0 0 0;
     background-position: 0 bottom;
     background-position-x: left 10%;
 }
@@ -447,11 +447,13 @@ footer h3 {
     width: 55%;
     margin-left: 35%;
     margin-top: 100px;
-    background-color: rgba(62, 0, 0, 0.8);
+    margin-bottom: 0;
+    background-color: rgba(117, 0, 0, 0.8);
+    box-shadow: -150px -150px 100px 0px rgba(0, 0, 0, 0.25) inset;
     padding-right: 75px;
     padding-left: 35px;
     padding-top: 15px;
-    padding-bottom: 35px;
+    padding-bottom: 15px;
     align-self: end;
 }
 
@@ -489,7 +491,6 @@ footer h3 {
 
 .lb_wins {
     font-size: 14px;
-    margin-bottom: 15px;
     justify-self: left;
     list-style-type:circle;
 }

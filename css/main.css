@@ -18,16 +18,24 @@ header {
 }
 
 #main-logo {
+    opacity: 85%;
     width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0 15px 0;
+    transition: opacity, width 300ms ease-in-out;
+}
+
+#main-logo:hover {
+    width: 160px;
+    opacity: 100%;
     display: block;
     margin: 0 auto;
     padding: 15px 0 15px 0;
 }
 
-#fighters-nav {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-color: rgba(0,0,0,0.7);
+main {
+    background-color: rgba(0,0,0,0.75);
     background-image: url(../images/background-octagon.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -40,21 +48,23 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-right: 10%;
+    margin-left: 10%;
     flex-wrap: wrap;
     font-size: 14px;
 }
 
 .fighters li {
     height: 220px;
-    background-color: rgba(0,0,0,0.25);
-    margin: 10px 10px;
+    background-color: rgba(0,0,0,35);
+    margin: 10px 8px;
     text-align: center;
     cursor: pointer;
     box-shadow: 0 155px 0 0 rgba(255, 0, 0, 0.75) inset;
     transition: box-shadow 300ms ease-in-out;
 }
 
-.fighter li:hover {
+.fighters li:hover {
     box-shadow: 0 500px 0 0 rgba(255, 0, 0, 0.75) inset;
 }
 
@@ -126,21 +136,70 @@ header {
     background-position-y: 150px;
 }
 
-#instructions {
+#page-title {
+    padding: 25px 75px 0 75px;
+    text-align: center;
+}
+
+#page-title h2 {
+    margin-bottom: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 52px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#page-title h2 span {
+    background-color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0 10px 0 10px;
+}
+
+#page-title h3 {
+    padding-bottom: 50px;
+    font-size: 14px;
+    font-weight: 200;
+    opacity: 75%; 
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+#credits {
     margin-top: 75px;
     padding: 25px;
     text-align: center;
 }
 
+#credits p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #afafaf;
+    font-size: 12px;
+}
+
+#credits p span {
+    font-weight: bold;
+    opacity: 100%;
+    color: white;
+}
+
 footer {
     text-align: center;
     padding: 25px;
-    background-color: rgb(205, 204, 204);
+    background-color: rgb(205, 204, 204, 0.15);
     box-shadow: 0 10px 25px 5px rgba(106, 106, 106, 0.5) inset;
 }
 
 footer h3 {
-    color: rgb(56, 56, 56);
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+}
+
+#ufc-belt {
+    margin-bottom: 10px;
+    width: 250px;
+    opacity: 75%;
 }
 
 .sticky-footer {
@@ -372,7 +431,7 @@ footer h3 {
 .lightbox_close {
     position:relative;
     left: 92%;
-    top: 200px;
+    top: 175px;
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
     font-size: 32px;
@@ -387,9 +446,9 @@ footer h3 {
 .lightbox article {
     width: 55%;
     margin-left: 35%;
-    margin-top: 150px;
-    background-color: rgba(0,0,0,0.75);
-    padding-right: 35px;
+    margin-top: 100px;
+    background-color: rgba(62, 0, 0, 0.8);
+    padding-right: 75px;
     padding-left: 35px;
     padding-top: 15px;
     padding-bottom: 35px;
@@ -397,7 +456,7 @@ footer h3 {
 }
 
 .lb_name {
-    font-size: 32px;
+    font-size: 28px;
     margin-bottom: 0;
     text-transform: uppercase;
     justify-self: left;
@@ -430,8 +489,9 @@ footer h3 {
 
 .lb_wins {
     font-size: 14px;
-    margin-bottom: 0;
+    margin-bottom: 15px;
     justify-self: left;
+    list-style-type:circle;
 }
 
 .lb_index {
@@ -442,7 +502,7 @@ footer h3 {
 }
 
 .lb_wins ul {
-    padding-left: 15px;
+    padding-left: 0px;
 }
 
 h4 span {
